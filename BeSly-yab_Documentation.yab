@@ -59,6 +59,7 @@ sub baummenu(helpfile$)
 x=0
 i=0
 	auslesen=open(helpfile$, "r")
+	
 	while (not EOF(auslesen))
 		line input #auslesen b$
 		dim elements$(1)
@@ -102,6 +103,7 @@ i=0
  	anzahlspalten=numElements
 	anzahlzeilen=x/anzahlspalten
 	eintraege=anzahlspalten*anzahlzeilen
+	//print eintraege
 	for treezeilen=1 to anzahlzeilen*anzahlspalten step anzahlspalten
 	//print len(d$(treezeilen+4))
 	if (d$(treezeilen+1)="") then
@@ -226,8 +228,8 @@ REM ######Fenteraufbau######
 	STV_x = VIEW GET "STV1", "Width"
 
 	//helpfile
-	//directory$="/Share/Projekte/c/yab/yab_documentation"
-	directory$="/boot/system/documentation/yab"
+	directory$="/Share/Projekte/c/yab/yab_documentation"
+	//directory$="/boot/system/documentation/yab"
 	
 	helpdir$=directory$+"/Help"
 	helpdir2$=directory$+"/data"
@@ -363,12 +365,16 @@ handle = open("data/color1")
 end sub
 sub readdir_languages()	
 	DROPBOX CLEAR "Languages"	
+	
 	output$=system$("ls -Q1 "+helpdir$)
+	
 	dim elements$(1)
 	numElements = split(output$, elements$(),"\n")
 	for i = 1 to numElements-1
 		//check if Helpfile available
+		
 		filename$=mid$(elements$(i),2,len(elements$(i))-2)
+		
 		if(IfExists(filename$))then	
 			DROPBOX ADD "Languages", mid$(elements$(i),2,len(elements$(i))-2)
 			if (mid$(elements$(i),2,len(elements$(i))-2)="Help_EN")then			

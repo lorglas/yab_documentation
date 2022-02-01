@@ -8,7 +8,6 @@ Description:
 
 This function replaces a text with another text. First you insert the text in which you want to search, then the desired character string that is to be found and finally the text with which you replace the searched character string
 
-
 Example:
 
 text$="This is the Example text. The Text is stupid. The text is stupid.The Text is stupid. The text is stupid."
@@ -18,6 +17,5 @@ print output$
 Explanation:
 
 This example replace the string Text with foo.
-
 
 Related: mid$

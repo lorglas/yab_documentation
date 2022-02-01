@@ -10,9 +10,10 @@ Note, that both arguments are silently converted to integer values and that nega
 
 Example:
 print xor(7,4) 
+
 Explanation:
 
-  This will print 3. This result is obvious, if you note, that the binary representation of 7 and 4 are 111 and 100 respectively; this will yield 011 in binary representaion or 2 as decimal. The eor-function is the same as the xor function; both are synonymous; however they have each their own description, so you may check out the entry of eor for a slightly different view.
+This will print 3. This result is obvious, if you note, that the binary representation of 7 and 4 are 111 and 100 respectively; this will yield 011 in binary representaion or 2 as decimal. The eor-function is the same as the xor function; both are synonymous; however they have each their own description, so you may check out the entry of eor for a slightly different view.
 
 
 Related: and, or, eor, not

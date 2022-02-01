@@ -15,4 +15,4 @@ Explanation:
   This will print 2. This result is clear, if you note, that the binary representation of 6 and 3 are 110 and 011 respectively; this will yield 010 in binary representaion or 2 as decimal.
 
 
-Related: or, eor, xor, not
+Related: or, eor, xor, not, shl, shr, bitnot

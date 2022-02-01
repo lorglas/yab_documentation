@@ -1,0 +1,19 @@
+Name:
+draw roundrect -- draw a rounded rect
+
+Synopsis:
+draw roundrect x1,y1 to x2,y2,  r1,r2, Target$
+
+Description:
+This command will draw a rounded rect on Target$. Target$ has to be either a valid view, bitmap or canvas. 
+
+At default it will draw a filled rounded rect in the current highcolor. With the draw set command you can change the filling settings.
+
+Example:
+window open 100,100 to 400,400, "Example", "Example"
+draw set true, "HighSolidFill"
+draw roundrect 10,10 to 100,100,  10,10, "Example"
+sleep 7
+window close "Example"
+
+Related: draw curve, draw dot, draw ellipse, draw flush, draw line, draw rect, draw set, draw triangle

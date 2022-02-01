@@ -20,6 +20,6 @@ sub fill$(a$)
 end sub 
 Explanation:
 
-  This example prints a table, from which you may figure, how the eor-function is computed.
+This example prints a table, from which you may figure, how the eor-function is computed.
 
 Related: and, or

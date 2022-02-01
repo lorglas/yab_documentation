@@ -1,0 +1,19 @@
+Name:
+shr()  shift its argument bitwise to the right
+
+Synopsis:
+print shr(0b110010000,4)
+
+Description:
+The shr-function (shr stands for shift right) treats its first argument as a binary number and shifts it to the right as specified by its second argument; the rightmost binary digits are discarded during this operation. So bin$(shr(0b1101100,2)) returns 11011 (the example uses bin$ and a number with base 2).
+
+Please note: as the argument of the function is converted to a 32-bit integer, all results are also confined to this range.
+
+Example:
+print "Some powers of two:"
+for i=0 to 5
+  print shr(32,i)
+next i
+This will print the powers of two from 32 downto 1, because the right-shift operation is equivalent to a division by two (discarding any fractional part).
+
+Related: and, or, bitnot, shr

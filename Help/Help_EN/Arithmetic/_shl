@@ -1,0 +1,19 @@
+Name:
+shl()  shift its argument bitwise to the left
+
+Synopsis:
+print shl(0b11001,8)
+
+Description:
+The shl-function (shl stands for shift left) treats its first argument as a binary number and shifts it to the left as specified by its second argument, filling up the gaps with zeroes. So bin$(shl(0b11011,4)) returns 110110000 (the example uses bin$ and a number with base 2).
+
+Please note: as the argument of the function is converted to a 32-bit integer, all results are also confined to this range.
+
+Example:
+print "Some powers of two:"
+for i=0 to 5
+  print shl(1,i)
+next i
+This will print the powers of two from 1 to 32, because the left-shift operation is equivalent to a multiplication with two.
+
+Related: and, or, bitnot, shr

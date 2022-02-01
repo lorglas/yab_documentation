@@ -1,0 +1,26 @@
+Name:
+draw arc -- draw a arc
+
+Synopsis:
+DRAW arc x1,y1,r1,r2,r3,r4, Target$
+
+Description:
+This command will draw a arc on Target$. Target$ has to be either a valid view, bitmap or canvas. 
+
+At default it will draw a filled arc in the current highcolor. With the draw set command you can change the filling settings.
+
+x1 and y1 Center of Arc
+r1 and r2 this is for the radius of the arc
+r3 for the angle 
+r4 for the span
+
+The arc starts at angle and streches along the ellipse for span degrees, where angular coordinates are measured counterclockwise with 0 degrees on the right.
+
+Example:
+window open 100,100 to 400,400, "Example", "Example"
+draw set true, "HighSolidFill"
+draw arc 150,150, 80, 80,270,30, "Example"
+sleep 7
+window close "Example"
+
+Related: draw curve, draw dot, draw ellipse, draw flush, draw line, draw rect, draw triangle

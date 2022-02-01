@@ -1,4 +1,9 @@
 Help_EN|||||Help/Help_EN
+Help_EN|Adding code during execution||||Help/Help_EN/Adding code during execution
+Help_EN|Adding code during execution|_adding_code|||Help/Help_EN/Adding code during execution/_adding_code
+Help_EN|Adding code during execution|_compile|||Help/Help_EN/Adding code during execution/_compile
+Help_EN|Adding code during execution|_execute()|||Help/Help_EN/Adding code during execution/_execute()
+Help_EN|Adding code during execution|_execute$()|||Help/Help_EN/Adding code during execution/_execute$()
 Help_EN|Arithmetic||||Help/Help_EN/Arithmetic
 Help_EN|Arithmetic|_** or ^|||Help/Help_EN/Arithmetic/_** or ^
 Help_EN|Arithmetic|_abs()|||Help/Help_EN/Arithmetic/_abs()
@@ -79,6 +84,7 @@ Help_EN|Graphical User Interface|Bitmaps|_bitmap remove||Help/Help_EN/Graphical 
 Help_EN|Graphical User Interface|Bitmaps|_bitmap save||Help/Help_EN/Graphical User Interface/Bitmaps/_bitmap save
 Help_EN|Graphical User Interface|Bitmaps|_screenshot||Help/Help_EN/Graphical User Interface/Bitmaps/_screenshot
 Help_EN|Graphical User Interface|Drawing|||Help/Help_EN/Graphical User Interface/Drawing
+Help_EN|Graphical User Interface|Drawing|_draw arc||Help/Help_EN/Graphical User Interface/Drawing/_draw arc
 Help_EN|Graphical User Interface|Drawing|_draw bitmap||Help/Help_EN/Graphical User Interface/Drawing/_draw bitmap
 Help_EN|Graphical User Interface|Drawing|_draw circle||Help/Help_EN/Graphical User Interface/Drawing/_draw circle
 Help_EN|Graphical User Interface|Drawing|_draw curve||Help/Help_EN/Graphical User Interface/Drawing/_draw curve
@@ -273,6 +279,9 @@ Help_EN|Localization||||Help/Help_EN/Localization
 Help_EN|Localization|_availableLanguage|||Help/Help_EN/Localization/_availableLanguage
 Help_EN|Localization|_localize|||Help/Help_EN/Localization/_localize
 Help_EN|Localization|_translate$()|||Help/Help_EN/Localization/_translate$()
+Help_EN|Misc||||Help/Help_EN/Misc
+Help_EN|Misc|_Escape_sequence|||Help/Help_EN/Misc/_Escape_sequence
+Help_EN|Misc|_Reserved_words|||Help/Help_EN/Misc/_Reserved_words
 Help_EN|Sound||||Help/Help_EN/Sound
 Help_EN|Sound|_loudness set|||Help/Help_EN/Sound/_loudness set
 Help_EN|Sound|_Mediasound play|||Help/Help_EN/Sound/_Mediasound play
@@ -346,4 +355,3 @@ Help_EN|System|_thread remove|||Help/Help_EN/System/_thread remove
 Help_EN|System|_time$|||Help/Help_EN/System/_time$
 Help_EN|System|_to |||Help/Help_EN/System/_to 
 Help_EN|System|_wait|||Help/Help_EN/System/_wait
-Help_EN|Reserved_words||||Help/Help_EN/Reserved_words

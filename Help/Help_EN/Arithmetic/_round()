@@ -1,0 +1,20 @@
+Name:
+round()  round its argument to the nearest integer
+
+Synopsis: 
+print round(x)
+
+Description:
+The found-function returns the nearest integer (e.g. 3.0 for an argument of 2.6). An argument with a fractional part of 0.5 (e.g. 2.5) represents an edge case, as such an argument has the same distance to two numbers, 3.0 and 2.0 in the example; this ambiguity is resolved by rounding away from zero and returning 3.0. By the same rule round(-2.5) returns -3.0; so you see, that round(x) always equals round(-x).
+
+Example:
+
+print round(2.3), round(2.5), round(2.7)
+print round(2), round(-2)
+print int(-2.3),round(-2.5), round(-2.7)
+
+Explanation:
+
+These examples return in order 2 3 3, then 2 -2 and finally 2 -3 -3.
+
+Related: ceil, floor, int, frac

@@ -1,0 +1,52 @@
+Escape-sequences
+
+Nevertheless you won't use chr$() as often as you might think, because the most important nonprintable characters can be constructed using escape-sequences with the \-character:
+
+You might use \n instead of chr$(10) wherever you want to use the newline-character.
+Finally escape sequences of the form \xHEX allow to encode arbitrary characters:
+
+E.g. \x012 returns the character chr$(18). 
+
+Note that \x requires a hexadecimal number; and hexadecimal 12 is the same as decimal 18.
+
+The following table lists all escape sequences of yabasic (of course, these are just the sequences known within the C-language):
+ 
+Escape-sequence
+
+Resulting Char 		
+newline				\n
+tabulator				\t
+vertical tabulator		\v
+backspace				\b
+carriage return			\r
+formfeed				\f
+alert					\a
+backslash				\\
+single quote			\'
+double quote			\"
+
+These escape sequences are replaced within every pair of doublequotes (""), i.e. within literal strings; user input read with the input-statement is not affected in any way.
+Finally note, that escape sequences have a profound impact, when specifying Window-pathnames.
+ 
+Here is another example which introduces the rest of yabasic's string-functions:
+
+label again 
+  print "Please enter a string containing the word \"yabasic\"" 
+  input a$ 
+  if (instr(lower$(a$),"yabasic")<>0) then
+    gosub thanx 
+  else 
+    print "No, please try again !" 
+  endif 
+goto loop 
+label thanx 
+print "Thanks a lot !" 
+return
+If you run this program you will receive the following output:
+
+Please enter a string containing the word "yabasic"
+?thequickbrownfox
+No, please try again ! 
+Please enter a string containing the word "yabasic" 
+?jumpedyabasicoverthelazydog
+Thanx.

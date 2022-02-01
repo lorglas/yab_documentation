@@ -1,0 +1,20 @@
+Name:
+execute()  execute a user defined subroutine, which must return a number
+
+Synopsis:
+print execute("bar","arg1","arg2")
+
+Description:
+
+The execute-function is the counterpart of the execute$-function (please see there for some caveats). execute may be used to execute subroutines, which return a number.
+
+Example:
+
+print execute("bar",2,3)
+sub bar(a,b)
+  return a+b
+end sub
+            
+This example would print out 5.
+
+Related: adding code during execution, compile, execute$, eval, eval$
