@@ -228,8 +228,8 @@ REM ######Fenteraufbau######
 	STV_x = VIEW GET "STV1", "Width"
 
 	//helpfile
-	directory$="/Share/Projekte/c/yab/yab_documentation"
-	//directory$="/boot/system/documentation/yab"
+	//directory$="/Share/Projekte/c/yab/yab_documentation"
+	directory$="/boot/system/documentation/yab"
 	
 	helpdir$=directory$+"/Help"
 	helpdir2$=directory$+"/data"
