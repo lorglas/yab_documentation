@@ -240,6 +240,7 @@ Help_DE|Graphical User Interface|Widgets|Treebox|_treebox sort|/boot/system/docu
 Help_DE|Graphical User Interface|Window|||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window
 Help_DE|Graphical User Interface|Window|_alert||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window/_alert
 Help_DE|Graphical User Interface|Window|_filepanel||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window/_filepanel
+Help_DE|Graphical User Interface|Window|_pcworkspaces||Help/Help_DE/Graphical User Interface/Window/_pcworkspaces
 Help_DE|Graphical User Interface|Window|_window close||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window/_window close
 Help_DE|Graphical User Interface|Window|_window count||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window/_window count
 Help_DE|Graphical User Interface|Window|_window get||/boot/system/documentation/yab/Help/Help_DE/Graphical User Interface/Window/_window get
@@ -267,6 +268,7 @@ Help_DE|Input and Output|_seek()|||/boot/system/documentation/yab/Help/Help_DE/I
 Help_DE|Input and Output|_tell|||/boot/system/documentation/yab/Help/Help_DE/Input and Output/_tell
 Help_DE|Input and Output|_using|||/boot/system/documentation/yab/Help/Help_DE/Input and Output/_using
 Help_DE|Localization||||/boot/system/documentation/yab/Help/Help_DE/Localization
+Help_DE|Localization|_availableLanguage|||Help/Help_DE/Localization/_availableLanguage
 Help_DE|Localization|_localize|||/boot/system/documentation/yab/Help/Help_DE/Localization/_localize
 Help_DE|Localization|_translate$()|||/boot/system/documentation/yab/Help/Help_DE/Localization/_translate$()
 Help_DE|Sound||||/boot/system/documentation/yab/Help/Help_DE/Sound

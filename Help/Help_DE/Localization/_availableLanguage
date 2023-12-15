@@ -10,7 +10,7 @@ LANGUAGE_AVAILABLE$("option")
 	option=""all" 				: output like this 883:en_150:Englisch (Europa) 
 
 Description:
-get a list of available language code back
+get a list of available language code back. 
 
 >>> option ALL currently not working <<<
 
