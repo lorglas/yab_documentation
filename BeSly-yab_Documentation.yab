@@ -149,11 +149,12 @@ i=0
 end sub
 
 sub right_side(entrynumber)
+	print entrynumber
 	TEXTEDIT CLEAR "Information"
 	box_header$ = TREEBOX GET$ PartOne$, entrynumber // "Help_EN"
 
 	fileload$=d$(entrynumber*6)
-	//print fileload$
+	print fileload$
 	handleA=open(directory$+"/"+fileload$, "r")
 	while (not EOF(handleA))
 		line input #handleA information$
